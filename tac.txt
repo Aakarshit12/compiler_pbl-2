@@ -1,0 +1,10 @@
+// Three Address Code
+function main:
+  t0 = 10
+  x = t0
+  t1 = 20
+  y = t1
+  t2 = x + y
+  z = t2
+  return z
+end function

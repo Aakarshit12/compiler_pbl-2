@@ -1,0 +1,13 @@
+// Stack-based Code
+FUNC main
+  PUSH 10
+  STORE x
+  PUSH 20
+  STORE y
+  LOAD x
+  LOAD y
+  ADD
+  STORE z
+  LOAD z
+  RET
+END_FUNC

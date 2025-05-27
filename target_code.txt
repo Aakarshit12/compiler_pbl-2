@@ -1,0 +1,16 @@
+; Target Machine Code
+main:
+    PUSH FP
+    MOV FP, SP
+    MOV R1, 10
+    STORE [x], R1
+    MOV R1, 20
+    STORE [y], R1
+    LOAD R1, [x]
+    LOAD R2, [y]
+    ADD R3, R1, R2
+    STORE [z], R3
+    LOAD R1, [z]
+    MOV SP, FP
+    POP FP
+    RET
